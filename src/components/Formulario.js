@@ -12,8 +12,6 @@ const Formulario = () => {
     const articulos = useSelector(state => state.articulos.articulos);
     const artistaSeleccionado = useSelector(state => state.articulos.artistaSeleccionado)
 
-    //console.log(artistaSeleccionado);
-
     const [artista, guardarArtista] = useState('');
 
     if(artista!='')
