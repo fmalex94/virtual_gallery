@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './bootstrap.min.css';
 import './index.css';
 import App from './App';
+import './translations'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(<App />, document.getElementById('root'));
